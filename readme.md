@@ -1,3 +1,3 @@
-# Subtotal. How to run
+# How to run
 
 npm start
