@@ -1,4 +1,7 @@
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import {
+    combineReducers,
+    configureStore
+} from "@reduxjs/toolkit";
 import { spacexAPI } from "services/api";
 
 const rootReducer = combineReducers({

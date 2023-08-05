@@ -1,4 +1,4 @@
-import App from 'components/App/app';
+import App from 'components/App/App';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
@@ -20,4 +20,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-

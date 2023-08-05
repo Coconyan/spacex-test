@@ -1,0 +1,37 @@
+.launches-item {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+
+  h3 {
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  p.error {
+    color: red;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 0 20px;
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__image-wrapper {
+    max-width: 700px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      padding-top: 10px;
+    }
+  }
+}

@@ -3,16 +3,18 @@
 
 .app {
   font: var(--font-m);
-  background: var(--bg-color);
-  color: var(--primary-color);
+  background-color: #404040;
+  color: #fff;
+  margin: 0 auto;
   min-height: 100vh;
-}
-
-.content-page {
   display: flex;
-}
-
-.page-wrapper {
-  flex: 1;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
+
+button {
+  margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
